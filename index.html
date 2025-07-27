@@ -396,7 +396,12 @@
     <header class="relative overflow-hidden">
         <div class="absolute inset-0 bg-[#f8edeb] opacity-60"></div>
         <div class="relative z-10 container mx-auto px-4 py-8 flex flex-col items-center">
-            <h1 class="text-5xl md:text-7xl handwritten font-bold text-[#d4a373] mb-4">SNEHKRIṬI</h1>
+
+
+<h1 class="text-5xl md:text-7xl font-bold text-[#d4a373] mb-4 flex items-center justify-center gap-2">
+    <span class="handwritten" style="font-family: 'Hind', sans-serif; font-weight: 600; color: #a17852;">स्नेह</span> <span class="letter italic" style="font-family: 'Homemade Apple', cursive; transform: rotate(-2deg); color: #d4a373;">Kriti</span> </h1>
+
+
             <p class="text-xl md:text-2xl handwritten text-[#6c757d] italic">Printed with Love. Felt like a Hug.</p>
         </div>
     </header> 
@@ -405,10 +410,10 @@
    <nav class="container mx-auto px-4 py-6 flex justify-center sticky top-0 bg-[#f8f1f0] bg-opacity-95 z-50 border-b-2 border-[#d4a373] border-opacity-30 backdrop-filter backdrop-blur-lg">
        <ul class="flex space-x-8 handwritten text-xl">
            <li><a href="#home" class="hover:text-[#d4a373] transition-all duration-300 hover:scale-110 transform">Home</a></li>
-           <li><a href="#about" class="hover:text-[#d4a373] transition-all duration-300 hover:scale-110 transform">Our Story</a></li>
            <li><a href="#gallery" class="hover:text-[#d4a373] transition-all duration-300 hover:scale-110 transform">Gallery</a></li>
            <li><a href="#custom" class="hover:text-[#d4a373] transition-all duration-300 hover:scale-110 transform">Custom Orders</a></li>
-           <li><a href="#process" class="hover:text-[#d4a373] transition-all duration-300 hover:scale-110 transform">The Print Diary</a></li>
+           <li><a href="#process" class="hover:text-[#d4a373] transition-all duration-300 hover:scale-110 transform">The Print Diary</a></li> 
+                      <li><a href="#about" class="hover:text-[#d4a373] transition-all duration-300 hover:scale-110 transform">Our Story</a></li>
        </ul>
    </nav>
 
@@ -444,6 +449,211 @@
     
 </section>
 
+
+<!-- Gallery Section - Organic Grid -->
+<section id="gallery" class="py-16 px-4">
+    <div class="container mx-auto">
+        <h2 class="text-3xl md:text-4xl handwritten font-bold text-center text-[#d4a373] mb-12">Current Collections</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> 
+
+            <!-- Dreamy Bloom Tee -->
+        <div class="hover-notes bg-white p-6 rounded-lg shadow-md relative">
+            <div class="absolute -top-3 -right-3 bg-[#f8edeb] px-3 py-1 rounded-full handwritten text-sm rotate-6">New!</div>
+            
+        <div class="relative mb-4">
+            <div class="polaroid-frame bg-white rounded-md shadow-lg overflow-hidden">
+                <img src="images\Pinterest Flower Tee.jpg" 
+                    alt="Pinterest Flower Tee" 
+                    class="w-full h-64 object-cover">
+            </div>
+            <div class="washi-tape absolute top-0 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-gray-300 rotate-6 -mt-2 z-20"></div>
+        </div>
+
+    <h3 class="text-xl handwritten text-[#d4a373] mb-2">Dreamy Bloom Tee</h3>
+    <p class="mb-4">Straight out of your moodboard—soft petals, tulips & charm. A vibe that's pretty inside and out.</p>
+    
+    <div class="flex justify-between items-center">
+        <div class="price-tag bg-[#feeafa] text-[#d4a373] px-4 py-2 rounded-full text-lg font-bold shadow-md">
+            ₹499
+        </div>
+            <button onclick="window.open('https://www.instagram.com/p/DMau7ngtELM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank')" 
+                class="text-[#d4a373] handwritten hover:underline">View Post</button>
+    </div>
+</div>
+
+
+<style>
+
+/* Polaroid frame style - UPDATED for full image coverage */
+.polaroid-frame {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft drop shadow */
+    transition: transform 0.3s ease;
+    border-radius: 8px; /* Slightly rounded corners for the polaroid frame */
+    padding: 0; /* Remove padding to let image fill the space */
+    overflow: hidden; /* Ensure image doesn't overflow the rounded corners */
+}
+
+.polaroid-frame:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* Washi tape style - ONLY these styles are added for the requested features */
+.washi-tape {
+    background-color: #d1d5db; /* A light grey for washi tape */
+    transform: rotate(6deg) translateX(-50%); /* Adjusted for better positioning */
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%); /* Slightly irregular edges */
+}
+
+/* Price tag bubble style - ONLY these styles are added for the requested features */
+.price-tag {
+    position: relative;
+}
+</style>
+
+
+
+            <!-- Spider Print Tee -->
+            <div class="hover-notes bg-white p-6 rounded-lg shadow-md relative">
+                <div class="absolute -top-3 -right-3 bg-[#f8edeb] px-3 py-1 rounded-full handwritten text-sm rotate-6">Best Seller!</div>
+                
+            <div class="relative mb-4">
+                <div class="polaroid-frame bg-white rounded-md shadow-lg overflow-hidden">
+                    <img src="images\Spider Web Tee.jpg" 
+                        alt="Spider Web Tee" 
+                        class="w-full h-64 object-cover">
+                </div>
+                <div class="washi-tape absolute top-0 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-gray-300 rotate-6 -mt-2 z-20"></div>
+            </div>
+
+                <h3 class="text-xl handwritten text-[#d4a373] mb-2">Spider Star Tee</h3>
+                <p class="mb-4">Bold white spider with red web & stars—made for the edgy, comic-inspired streetwear fan.</p>
+
+                <div class="flex justify-between items-center">
+                    <div class="price-tag bg-[#feeafa] text-[#d4a373] px-4 py-2 rounded-full text-lg font-bold shadow-md">
+                        ₹599
+                    </div>
+                    <button onclick="window.open('https://www.instagram.com/p/DMdRlkbJbYR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank')" 
+                            class="text-[#d4a373] handwritten hover:underline">View Post</button>
+                </div>
+            </div>
+
+
+        
+        <!-- Anime Luffy Tee -->
+        <div class="hover-notes bg-white p-6 rounded-lg shadow-md relative">
+            <div class="absolute -top-3 -right-3 bg-[#f8edeb] px-3 py-1 rounded-full handwritten text-sm rotate-6">Anime Drop!</div>
+            
+            <div class="relative mb-4">
+                <div class="polaroid-frame bg-white rounded-md shadow-lg overflow-hidden">
+                    <img src="images\Luffy Anime Tee.jpg"
+                        alt="Luffy Anime Tee"
+                        class="w-full h-64 object-cover">
+                </div>
+                <div class="washi-tape absolute top-0 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-gray-300 rotate-6 -mt-2 z-20"></div>
+            </div>
+
+            <h3 class="text-xl handwritten text-[#d4a373] mb-2">One Piece Luffy Tee</h3>
+            <p class="mb-4">Custom anime tee for Straw Hat fans. Available in both hand-painted & digital print options!</p>
+
+            <div class="flex justify-between items-center">
+                <div class="price-tag bg-[#feeafa] text-[#d4a373] px-4 py-2 rounded-full text-lg font-bold shadow-md">
+                    ₹699
+                </div>
+                <button onclick="window.open('https://www.instagram.com/p/DLzoc1RNxio/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank')" 
+                        class="text-[#d4a373] handwritten hover:underline">View Post</button>
+            </div> 
+        </div>
+
+
+
+            
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- Custom Order Section -->
+<section id="custom" class="py-16 px-4 watercolor-bg">
+  <div class="container mx-auto max-w-6xl">
+    <!-- Main Title -->
+    <div class="text-center relative">
+      <div class="absolute -top-8 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-pink-300 to-transparent"></div>
+      <h2 class="text-5xl md:text-6xl handwritten font-bold gradient-text relative">
+        Let's Create Magic Together
+        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-0.5 bg-gradient-to-r from-pink-400 to-orange-400"></div>
+      </h2>
+      <p class="text-xl text-gray-600 handwritten max-w-3xl mx-auto leading-relaxed mt-2">
+        Every pattern holds a memory. Share your vision and let's weave it into something extraordinary.
+      </p>
+    </div>
+  </div>
+
+  <!-- Submit Button -->
+  <div class="lg:col-span-2 text-center mt-6">
+    <p class="text-xl text-gray-600 handwritten max-w-3xl mx-auto leading-relaxed">
+      We'll reach out within 24 hours to begin your magical journey
+    </p>
+  </div>
+</section>
+
+
+
+<!-- Process Section - The Print Diary -->
+<section id="process" class="py-16 px-4">
+    <div class="container mx-auto">
+        <h2 class="text-3xl md:text-4xl handwritten font-bold text-center text-[#d4a373] mb-4">The Print Diary</h2>
+        <p class="text-center mb-12 max-w-4xl mx-auto"><b>Beautiful chaos: where ink spills, trial blocks, and delightfully stained hands craft every unique piece.</b></p>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <!-- Episode 1 -->
+            <div class="relative group overflow-hidden rounded-lg aspect-square">
+                <a href="https://www.instagram.com/reel/DLsDLWOJrQ3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images\episode 1.jpg" alt="Episode 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <p class="text-white handwritten text-xl">Episode 1</p>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Episode 2 -->
+            <div class="relative group overflow-hidden rounded-lg aspect-square">
+                <a href="https://www.instagram.com/reel/DLxMXnztSae/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images\episode 2.jpg" alt="Episode 2" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <p class="text-white handwritten text-xl">Episode 2</p>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Episode 3 -->
+            <div class="relative group overflow-hidden rounded-lg aspect-square">
+                <a href="https://www.instagram.com/reel/DL2VprOthmU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images\episode 3.jpg" alt="Episode 3" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <p class="text-white handwritten text-xl">Episode 3</p>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Episode 4 -->
+            <div class="relative group overflow-hidden rounded-lg aspect-square">
+                <a href="https://www.instagram.com/reel/DMApL-YtDtD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images\episode 4.jpg" alt="Episode 4" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <p class="text-white handwritten text-xl">Episode 4</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="text-center mt-12">
+            <a href="https://www.instagram.com/snehkriti.in/reels/" target="_blank" class="inline-block border-2 border-[#d4a373] text-[#d4a373] handwritten text-xl px-8 py-2 rounded-full hover:bg-[#d4a373] hover:text-white transition">Follow Our Daily Process</a>
+        </div>
+    </div>
+</section> 
 
 
     <!-- About Section - Handwritten Letter Style -->
@@ -542,212 +752,6 @@
             </div>
         </div>
     </section>
-
-
-<!-- Gallery Section - Organic Grid -->
-<section id="gallery" class="py-16 px-4">
-    <div class="container mx-auto">
-        <h2 class="text-3xl md:text-4xl handwritten font-bold text-center text-[#d4a373] mb-12">Current Collections</h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> 
-
-            <!-- Dreamy Bloom Tee -->
-        <div class="hover-notes bg-white p-6 rounded-lg shadow-md relative">
-            <div class="absolute -top-3 -right-3 bg-[#f8edeb] px-3 py-1 rounded-full handwritten text-sm rotate-6">New!</div>
-            
-        <div class="relative mb-4">
-            <div class="polaroid-frame bg-white rounded-md shadow-lg overflow-hidden">
-                <img src="images/SaveGram.App_523390200_564445256622669_9005392980367154485_n.jpg" 
-                    alt="Pinterest Flower Tee" 
-                    class="w-full h-64 object-cover">
-            </div>
-            <div class="washi-tape absolute top-0 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-gray-300 rotate-6 -mt-2 z-20"></div>
-        </div>
-
-    <h3 class="text-xl handwritten text-[#d4a373] mb-2">Dreamy Bloom Tee</h3>
-    <p class="mb-4">Straight out of your moodboard—soft petals, tulips & charm. A vibe that's pretty inside and out.</p>
-    
-    <div class="flex justify-between items-center">
-        <div class="price-tag bg-[#feeafa] text-[#d4a373] px-4 py-2 rounded-full text-lg font-bold shadow-md">
-            ₹1,299
-        </div>
-            <button onclick="window.open('https://www.instagram.com/p/DMau7ngtELM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank')" 
-                class="text-[#d4a373] handwritten hover:underline">View Post</button>
-    </div>
-</div>
-
-
-<style>
-
-/* Polaroid frame style - UPDATED for full image coverage */
-.polaroid-frame {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft drop shadow */
-    transition: transform 0.3s ease;
-    border-radius: 8px; /* Slightly rounded corners for the polaroid frame */
-    padding: 0; /* Remove padding to let image fill the space */
-    overflow: hidden; /* Ensure image doesn't overflow the rounded corners */
-}
-
-.polaroid-frame:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
-}
-
-/* Washi tape style - ONLY these styles are added for the requested features */
-.washi-tape {
-    background-color: #d1d5db; /* A light grey for washi tape */
-    transform: rotate(6deg) translateX(-50%); /* Adjusted for better positioning */
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%); /* Slightly irregular edges */
-}
-
-/* Price tag bubble style - ONLY these styles are added for the requested features */
-.price-tag {
-    position: relative;
-}
-</style>
-
-
-
-            <!-- Spider Print Tee -->
-            <div class="hover-notes bg-white p-6 rounded-lg shadow-md relative">
-                <div class="absolute -top-3 -right-3 bg-[#f8edeb] px-3 py-1 rounded-full handwritten text-sm rotate-6">Best Seller!</div>
-                
-            <div class="relative mb-4">
-                <div class="polaroid-frame bg-white rounded-md shadow-lg overflow-hidden">
-                    <img src="images/SaveGram.App_522925948_1419845412398988_6554159794379264956_n.jpg" 
-                        alt="Spider Web Tee" 
-                        class="w-full h-64 object-cover">
-                </div>
-                <div class="washi-tape absolute top-0 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-gray-300 rotate-6 -mt-2 z-20"></div>
-            </div>
-
-                <h3 class="text-xl handwritten text-[#d4a373] mb-2">Spider Star Tee</h3>
-                <p class="mb-4">Bold white spider with red web & stars—made for the edgy, comic-inspired streetwear fan.</p>
-
-                <div class="flex justify-between items-center">
-                    <div class="price-tag bg-[#feeafa] text-[#d4a373] px-4 py-2 rounded-full text-lg font-bold shadow-md">
-                        ₹1,499
-                    </div>
-                    <button onclick="window.open('https://www.instagram.com/p/DMdRlkbJbYR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank')" 
-                            class="text-[#d4a373] handwritten hover:underline">View Post</button>
-                </div>
-            </div>
-
-
-        
-        <!-- Anime Luffy Tee -->
-        <div class="hover-notes bg-white p-6 rounded-lg shadow-md relative">
-            <div class="absolute -top-3 -right-3 bg-[#f8edeb] px-3 py-1 rounded-full handwritten text-sm rotate-6">Anime Drop!</div>
-            
-            <div class="relative mb-4">
-                <div class="polaroid-frame bg-white rounded-md shadow-lg overflow-hidden">
-                    <img src="images/SaveGram.App_516854796_3157232481123689_8674161346138007980_n.jpg"
-                        alt="Luffy Anime Tee"
-                        class="w-full h-64 object-cover">
-                </div>
-                <div class="washi-tape absolute top-0 left-1/2 transform -translate-x-1/2 w-16 h-4 bg-gray-300 rotate-6 -mt-2 z-20"></div>
-            </div>
-
-            <h3 class="text-xl handwritten text-[#d4a373] mb-2">One Piece Luffy Tee</h3>
-            <p class="mb-4">Custom anime tee for Straw Hat fans. Available in both hand-painted & digital print options!</p>
-
-            <div class="flex justify-between items-center">
-                <div class="price-tag bg-[#feeafa] text-[#d4a373] px-4 py-2 rounded-full text-lg font-bold shadow-md">
-                    ₹1,399
-                </div>
-                <button onclick="window.open('https://www.instagram.com/p/DLzoc1RNxio/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank')" 
-                        class="text-[#d4a373] handwritten hover:underline">View Post</button>
-            </div> 
-        </div>
-
-
-
-            
-        </div>
-
-    </div>
-</section>
-
-
-
-<!-- Custom Order Section -->
-<section id="custom" class="py-16 px-4 watercolor-bg">
-  <div class="container mx-auto max-w-6xl">
-    <!-- Main Title -->
-    <div class="text-center relative">
-      <div class="absolute -top-8 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-pink-300 to-transparent"></div>
-      <h2 class="text-5xl md:text-6xl handwritten font-bold gradient-text relative">
-        Let's Create Magic Together
-        <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-0.5 bg-gradient-to-r from-pink-400 to-orange-400"></div>
-      </h2>
-      <p class="text-xl text-gray-600 handwritten max-w-3xl mx-auto leading-relaxed mt-2">
-        Every pattern holds a memory. Share your vision and let's weave it into something extraordinary.
-      </p>
-    </div>
-  </div>
-
-  <!-- Submit Button -->
-  <div class="lg:col-span-2 text-center mt-6">
-    <p class="text-xl text-gray-600 handwritten max-w-3xl mx-auto leading-relaxed">
-      We'll reach out within 24 hours to begin your magical journey
-    </p>
-  </div>
-</section>
-
-
-
-<!-- Process Section - The Print Diary -->
-<section id="process" class="py-16 px-4">
-    <div class="container mx-auto">
-        <h2 class="text-3xl md:text-4xl handwritten font-bold text-center text-[#d4a373] mb-4">The Print Diary</h2>
-        <p class="text-center mb-12 max-w-4xl mx-auto"><b>Beautiful chaos: where ink spills, trial blocks, and delightfully stained hands craft every unique piece.</b></p>
-        
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <!-- Episode 1 -->
-            <div class="relative group overflow-hidden rounded-lg aspect-square">
-                <a href="https://www.instagram.com/reel/DLsDLWOJrQ3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
-                    <img src="images\episode 1.jpg" alt="Episode 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <p class="text-white handwritten text-xl">Episode 1</p>
-                    </div>
-                </a>
-            </div>
-            
-            <!-- Episode 2 -->
-            <div class="relative group overflow-hidden rounded-lg aspect-square">
-                <a href="https://www.instagram.com/reel/DLxMXnztSae/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
-                    <img src="images\episode 2.jpg" alt="Episode 2" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <p class="text-white handwritten text-xl">Episode 2</p>
-                    </div>
-                </a>
-            </div>
-            
-            <!-- Episode 3 -->
-            <div class="relative group overflow-hidden rounded-lg aspect-square">
-                <a href="https://www.instagram.com/reel/DL2VprOthmU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
-                    <img src="images\episode 3.jpg" alt="Episode 3" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <p class="text-white handwritten text-xl">Episode 3</p>
-                    </div>
-                </a>
-            </div>
-            
-            <!-- Episode 4 -->
-            <div class="relative group overflow-hidden rounded-lg aspect-square">
-                <a href="https://www.instagram.com/reel/DMApL-YtDtD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
-                    <img src="images\episode 4.jpg" alt="Episode 4" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <p class="text-white handwritten text-xl">Episode 4</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-        
-        <div class="text-center mt-12">
-            <a href="https://www.instagram.com/snehkriti.in/reels/" target="_blank" class="inline-block border-2 border-[#d4a373] text-[#d4a373] handwritten text-xl px-8 py-2 rounded-full hover:bg-[#d4a373] hover:text-white transition">Follow Our Daily Process</a>
-        </div>
-    </div>
-</section>
 
 <!-- Connect With Us Section -->
 <section class="py-16 px-4 bg-gradient-to-br from-[#f8edeb] via-[#fae1dd] to-[#f5ebe0] relative overflow-hidden">
@@ -1066,8 +1070,12 @@
                 <div class="space-y-6">
                     <h4 class="text-2xl handwritten font-bold mb-6 text-[#d4a373]">Contact</h4>
                     <div class="space-y-3">
-                        <p class="handwritten text-lg hover:text-[#d4a373] transition-colors cursor-pointer">hello@snehkriti.in</p>
-                        <p class="handwritten text-lg hover:text-[#d4a373] transition-colors cursor-pointer">+91 98765 43210</p>
+                        <p class="handwritten text-lg hover:text-[#d4a373] transition-colors cursor-pointer">
+                            <a href="mailto:Snehkriti.in@gmail.com" class="hover:text-[#d4a373] transition-colors">
+                                hello@snehkriti.in
+                            </a>
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -1075,8 +1083,9 @@
             <div class="border-t border-[#d4a373] border-opacity-30 mt-16 pt-10 text-center relative">
                 <p class="handwritten text-xl text-[#e8ddd2] italic">Made with ink-stained hands and a full heart © 2025 SNEHKRIṬI</p>
                 <div class="absolute -bottom-4 right-1 z-50 handwritten text-sm text-[#d4a373] -rotate-12 transition-all duration-300 hover:text-[#b08968] hover:scale-105 hover:drop-shadow-md pointer-events-auto">
-                    Designed by: 
-                    <a href="https://www.instagram.com/__xxrishuuu/" target="_blank" class="hover:font-semibold cursor-pointer">Rishi Thakur</a>
+                    <a href="https://www.instagram.com/__xxrishuuu/" target="_blank" class="hover:font-semibold cursor-pointer">
+                        Designed by: Rishi Thakur
+                    </a>
                 </div>
             </div>
 </div>
