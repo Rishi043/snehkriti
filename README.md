@@ -1,55 +1,83 @@
----
-
 <div align="center">
-  <h1>🎨✨ SNEHKRIṬI ✨🎨</h1>
-  <h3>Where Every Brushstroke Whispers a Tale, and Art Finds Its Soul</h3>
-</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Dancing+Script&size=25&duration=3000&pause=1000&color=D4A373&center=true&vCenter=true&width=500&lines=Beautiful+chaos+awaits...;Ink+spills+create+magic;Every+piece+has+a+soul" alt="Typing Animation"/>
-</div>
+# 🎨✨ SNEHKRIṬI ✨🎨
+### *Where Art Meets Soul*
 
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Dancing+Script&size=25&duration=3000&pause=1000&color=D4A373&center=true&vCenter=true&width=500&lines=Beautiful+chaos+awaits...;Ink+spills+create+magic;Every+piece+has+a+soul" alt="Typing Animation"/>
 
-<div align="center">
-  <h2>🛍️ Unveil Your Artistic Obsession</h2>
-  <p>Dive into our curated collections, where imagination takes flight and colors sing. Each piece is a journey, a statement, a whisper of wonder.</p>
-</div>
+![SNEHKRIṬI Banner](https://img.shields.io/badge/SNEHKRIṬI-Handcrafted%20with%20Love-d4a373?style=for-the-badge&logo=palette&logoColor=white)
+![Artisan Made](https://img.shields.io/badge/100%25-Artisan%20Made-ff6b9d?style=for-the-badge&logo=heart&logoColor=white)
 
-| Collection          | Inspiration                   | The Vibe                     | Price     |
-| :------------------ | :---------------------------- | :--------------------------- | :-------- |
-| 🏴‍☠️ **One Piece** | Legendary anime, epic sagas   | Bold, adventurous, iconic     | ₹1,399    |
-| 🕷️ **Spider Web** | Enigmatic depths, intricate grace | Darkly enchanting, subtly captivating | ₹1,299    |
-| 🌸 **Florals** | Nature's delicate poetry      | Serene, elegant, timeless     | ₹1,199    |
+[![🌐 Live Website](https://img.shields.io/badge/🌐%20VISIT-Website-success?style=for-the-badge&labelColor=2d3748)](https://rishi043.github.io/snehkriti/)
+[![📸 Instagram](https://img.shields.io/badge/📸%20FOLLOW-@snehkriti.in-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=2d3748)](https://www.instagram.com/snehkriti.in/)
 
----
-
-<div align="center">
-  <h2>🎬 Beyond the Canvas: "Messy Love"</h2>
-  <p>Peek behind the curtain and witness the raw passion that fuels SNEHKRIṬI. "Messy Love" isn't just a process; it's the beautiful, spontaneous chaos that breathes life into every single creation.</p>
 </div>
 
 ---
 
 <div align="center">
-  <h2>🛠️ Crafted with Heart, Designed for You</h2>
-  <p>Our digital haven is built to bring the essence of SNEHKRIṬI directly to your fingertips, ensuring an experience as enchanting as our art:</p>
-  <ul>
-    <li>📱 **Seamless Responsiveness**: Your art, beautifully displayed on any device.</li>
-    <li>🎨 **Subtle Animations**: A touch of magic to guide your journey.</li>
-    <li>📸 **Integrated Instagram Feed**: Daily doses of inspiration and behind-the-scenes glimpses.</li>
-    <li>🖼️ **Charming Polaroid Gallery**: Relive cherished moments, one captivating piece at a time.</li>
-  </ul>
+
+## 🛍️ Our Artistic Universe
+
+| 🏴‍☠️ **One Piece** | 🕷️ **Spider Web** | 🌸 **Florals** |
+|:---:|:---:|:---:|
+| Anime magic on fabric | Bold mysterious designs | Delicate flower art |
+| **₹1,399** | **₹1,299** | **₹1,199** |
+
+[![🛒 Shop Now](https://img.shields.io/badge/🛒%20SHOP-Now%20Available-ff6b9d?style=for-the-badge&labelColor=2d3748)](https://www.instagram.com/snehkriti.in/)
+
 </div>
 
 ---
 
 <div align="center">
-  <h2>📱 Connect, Create, & Cherish</h2>
-  <p>Ready to invite a piece of SNEHKRIṬI into your world? We're just a message away. Let's create something extraordinary together.</p>
-  <p>Made with ink-stained hands and a heart full of dreams © 2025 SNEHKRIṬI</p>
-  <p>Designed with 💜 by Rishi Thakur</p>
 
-  <h3>⭐ Love what you see? Give us a star and help our art shine brighter! ⭐</h3>
-  <h3>✨ Every piece has a story to tell. What chapter will you begin? ✨</h3>
+## 🎬 Behind the Scenes - "Messy Love"
+
+**Watch our creative chaos unfold:**
+
+[![Episode 1](https://img.shields.io/badge/📺%20Episode%201-Block%20Carving-FF6B6B?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/reel/DLsDLWOJrQ3/)
+[![Episode 2](https://img.shields.io/badge/📺%20Episode%202-Color%20Alchemy-4ECDC4?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/reel/DLxMXnztSae/)
+
+[![Episode 3](https://img.shields.io/badge/📺%20Episode%203-Sun%20Drying-45B7D1?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/reel/DL2VprOthmU/)
+[![Episode 4](https://img.shields.io/badge/📺%20Episode%204-Final%20Magic-6C5CE7?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/reel/DMApL-YtDtD/)
+
+[![🎬 All Episodes](https://img.shields.io/badge/🎬%20WATCH-All%20Episodes-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=2d3748)](https://www.instagram.com/snehkriti.in/reels/)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🛠️ Built With
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Features:** 📱 Responsive • 🎨 Animated • 📸 Instagram Integration • 🖼️ Polaroid Gallery
+
+</div>
+
+---
+
+<div align="center">
+
+## 📱 Connect & Order
+
+[![📧 Custom Orders](https://img.shields.io/badge/📧%20CUSTOM%20ORDERS-DM%20Us-4ECDC4?style=for-the-badge&labelColor=2d3748)](https://www.instagram.com/snehkriti.in/)
+[![🌍 Worldwide Shipping](https://img.shields.io/badge/🌍%20SHIPPING-Worldwide-45B7D1?style=for-the-badge&labelColor=2d3748)](https://www.instagram.com/snehkriti.in/)
+
+---
+
+*Made with ink-stained hands and a full heart © 2025 SNEHKRIṬI*
+
+**Designed with 💜 by** [**Rishi Thakur**](https://www.instagram.com/__xxrishuuu/)
+
+### ⭐ Star this repo if you love handcrafted art! ⭐
+
+**✨ Every piece tells a story. What's yours? ✨**
+
 </div>
